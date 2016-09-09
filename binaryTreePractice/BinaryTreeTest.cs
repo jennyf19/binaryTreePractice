@@ -9,14 +9,22 @@ namespace binaryTreePractice
         [Fact]
         public void TestMethod1()
         {
+            var quickSort = new BinaryTree();
+
+            Assert.Equal(quickSort.Size(), 0);
+        }
+
+        [Fact]
+        public void TestMethod2()
+        {
             var treeSize = new BinaryTree();
 
             Assert.Equal(treeSize.Size(), 0);
 
         }
-
+       
         [Fact]
-        public void TestMethod2()
+        public void TestMethod3()
         {
             var treeInsert = new BinaryTree();
 
@@ -24,7 +32,7 @@ namespace binaryTreePractice
         }
 
         [Fact]
-        public void TestMethod3()
+        public void TestMethod4()
         {
             var treeDelete = new BinaryTree();
 
@@ -32,7 +40,7 @@ namespace binaryTreePractice
         }
 
         [Fact]
-        public void TestMethod4()
+        public void TestMethod5()
         {
             var treeFind = new BinaryTree();
 
@@ -40,7 +48,7 @@ namespace binaryTreePractice
         }
 
         [Fact]
-        public void TestMethod5()
+        public void TestMethod6()
         {
             var nodeTrack = new BinaryTree();
 

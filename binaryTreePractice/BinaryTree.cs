@@ -8,6 +8,7 @@ namespace binaryTreePractice
 {
     class BinaryTree
     {
+        
         internal int Size()
         {
             throw new NotImplementedException();
